@@ -1,1 +1,171 @@
-<h1>Hello world</h1>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/index.css" media="screen" title="no title">
+  <link rel="shortcut icon" href="/images/Scarface.png">
+  <title>Marcus Thorström</title>
+</head>
+
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+
+    <div class="card col-sm-4 col-sm-offset-4">
+      <h1>Marcus Thorström</h1>
+      <img src="/images/jag.jpg" alt="" class="img-rounded me img-responsive" />
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="content">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Me</a></li>
+    <li role="presentation"><a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a></li>
+    <li role="presentation"><a href="#working_experience" aria-controls="working_experience" role="tab" data-toggle="tab">Working Experience</a></li>
+    <li role="presentation"><a href="#projects" aria-controls="projects" role="tab" data-toggle="tab">Projects</a></li>
+    <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+      <!-- Content of Home tab  -->
+      This is my personal web page, here I post information about myself and my ongoing projects and iterest.
+      Under the Education panel, you find more information about my Education.
+      The tab Working Experience lists my previous jobs.
+      Some of my previous projects is listed under Projects.
+      My contact information can be found under Contact.
+
+    </div>
+    <div role="tabpanel" class="tab-pane" id="education">
+      <ul>
+        <li>
+          <h3>Uddevalla gymnasieskola</h3>
+          During my highschool I studied technology with a specialization in IT.
+          I learned how routing protocol worked and the infrastructure of the internet.
+          I recieved two CCNA discovery certificates from Cisco Networking academy.
+        </li>
+        <li>
+          <h3>Chalmers university of technology - B.S</h3>
+          My bachelors degree was a major in Computer engineering and the education mixed both software and hardware.
+          The parts I found interesting was the software, as this was new to me.
+          I continued by selecting courses which were more software specific and gave me the ability to, after a masters degree, recieve the swedish title of "Civil Ingenjör".
+        </li>
+        <li>
+          <h3>Chalmers university of technology - M.Sc</h3>
+          My masters degree is in Software Engineering, a master aimed to investigate the process of creating software.
+          The master covers topics such as Software Quality, Requirements Engineering, Project management etc.
+          I am currently writing my master thesis investigating key performance indicators (KPI) in industrial use.
+        </li>
+      </ul>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="working_experience">
+      Listed below is some of my working experience.
+      <ul>
+        <li>
+          <h4>Volvo Cars - Technical planning <br>
+            <small>Summer 2016</small></h4>
+          I worked at Volvo cars technical planning department during the summer of 2016.
+          My tasks were creating user interfaces in VBA for Excel and creating a planning system using Excel.
+        </li>
+        <li>
+          <h4>Lindholmen Science Park - PC/MAC/IT Support
+            <br> <small>2013-2016</small></h4>
+          During my bachelor programe I worked as an support technican on the side.
+          I participated in fixing any computer related issues aswell as planning, expansion and consulting in purchaes made.
+        </li>
+        <li>
+          <h4>Qalixa Solutions  - iOS developer/internship <br>
+            <small>Summer 2014</small></h4>
+          During the summer of 2014 I worked as an intern at Qalixa Solutions developing their iOS application.
+          I learned to work with a team and use common techiques such as git and scrum. I also learned Objective-C, the (then current) language for iOS.
+        </li>
+      </ul>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="projects">
+      <h3>Here is a list of my Projects</h3>
+      <ul>
+        <li>
+          <h4>Needy</h4>
+          Needy was the first real android project I build.
+          It was a part of a university course where we were suppose to build an andrioid application for truck drivers.
+          The functionality was very basic, it had a starting screen with four options, were a truck driver could select either: Food, Reststop, Gasstation or settings.
+          I was in charge of mining JSON data from different official and no-nofficial (reverse engineering websites) to get the information about near reststops and gasstations.
+          We also used the Google maps API to get near restaurants and to get directions to the nearest.
+        </li>
+        <li>
+          <h4>Pling</h4>
+          The pling project was another university project where a few classmates and I build a simple order system for a local bike delivery company.
+          The system included a website to create orders and an android application for the bikers to get directions and todays orders.
+          I was in charge of the backend, this was done without any external librarys, in PHP. I managed the website and database with another person in charge of the front-end look.
+        </li>
+        <li>
+          <h4>A tour wit Google glass</h4>
+          This was my bachelor thesis, me and my partner created a google glass application to guide weares around a office and present information by scanning QR codes generated from the web service we also created.
+          The web service was written in .NET and it was my first (and only) experience with C#.
+          The publication can be found <a href="http://studentarbeten.chalmers.se/publication/220110-en-rundtur-med-google-glass">here</a>.
+        </li>
+        <li>
+          <h4>Sigma programming Challenge</h4>
+          This was my first industrial project, co-created with the consultingfirm Sigma. They needed a system to test the technical aspects of developers by asking technical questions and asking them to write code.
+          I proposed the alternative of having an online compiler to do small task and check questions. The application supported compilation of C, C#, Java, Python code through HTPP post requests and managed questions and resutls in an Mongo Database.
+          The webserver was written in NodeJS.
+        </li>
+        <li>
+          <h4>iOS projects</h4>
+          To extend my iOS knowledge and learn Swift, I created some very basic applications for iOS.
+          <ul>
+            <li>
+              <h6><a href="https://github.com/marcusthorstrom/Velocity">Velocity</a></h6>
+              An application for measuring speed in diferent units (km/h, mph, knots, m/s).
+            </li>
+            <li>
+              <h6>BRFKalkylatorn</h6>
+              Application for calculating key values from housing cooperatives.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h4><a href="https://github.com/marcusthorstrom/HemnetRaknaren">Hemnet räknaren</a></h4>
+          This is a google chrome extension i created to be used with the swedish housing site Hemnet.
+          This application calclulated the actual monthly cost of a house or apartment depending on certain parameters (rent, mortage etc.).
+        </li>
+        <li>
+          <h4><a href="https://github.com/marcusthorstrom/LightControl">Light Control</a></h4>
+          This is my simple "home automation" system used for turning on and off the lights in my apartment. The system uses a 433MHz sender to power on and off different ligths.
+
+        </li>
+
+      </ul>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="contact">
+      Email: marcus.thorstrom@gmail.com
+      <br>
+      Phone: +46704910105
+      <br>
+      <br>
+      Download my resumé:
+      <br>
+      <a href="documents/CV_Eng.pdf">English</a>
+      <br>
+      <a href="documents/CV_Sv.pdf">Swedish</a>
+
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+
+</div>
+<footer class="footer">
+  <a href="https://www.linkedin.com/in/marcus-thorstrom-8a368b71"><img src="images/in.png" alt="linkedin" class="in"/></a>
+  <a href="https://github.com/marcusthorstrom"><img src="images/gh.png" alt="github" class="github"/></a>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
