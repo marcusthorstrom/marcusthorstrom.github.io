@@ -68,3 +68,10 @@ body {
   background-color: #34495e;
   /*background-image: url("/images/bg.png");*/
 }
+
+@media screen and (max-width: 500px) {
+  .nav>li>a {
+    padding: 5px 5px;
+  }
+
+}
