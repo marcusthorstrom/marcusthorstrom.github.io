@@ -1,7 +1,7 @@
 <head>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/index.css" media="screen" title="no title">
-  <link rel="shortcut icon" href="/images/Scarface.png">
+  <!-- <link rel="shortcut icon" href="/images/Scarface.png"> -->
   <title>Marcus Thorström</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -34,7 +34,7 @@
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="home">
       <!-- Content of Home tab  -->
-      This is my personal web page, here I post information about myself and my ongoing projects and iterest.
+      This is my personal web page, here I post information about myself and my ongoing projects and interest.
       Under the Education panel, you find more information about my Education.
       The tab Working Experience lists my previous jobs.
       Some of my previous projects is listed under Projects.
@@ -44,22 +44,34 @@
     <div role="tabpanel" class="tab-pane" id="education">
       <ul>
         <li>
-          <h3>Uddevalla gymnasieskola</h3>
-          During my highschool I studied technology with a specialization in IT.
-          I learned how routing protocol worked and the infrastructure of the internet.
-          I recieved two CCNA discovery certificates from Cisco Networking academy.
-        </li>
-        <li>
-          <h3>Chalmers university of technology - B.S</h3>
-          My bachelors degree was a major in Computer engineering and the education mixed both software and hardware.
-          The parts I found interesting was the software, as this was new to me.
-          I continued by selecting courses which were more software specific and gave me the ability to, after a masters degree, recieve the swedish title of "Civil Ingenjör".
-        </li>
-        <li>
-          <h3>Chalmers university of technology - M.Sc</h3>
+          <h3>
+            Chalmers university of technology - M.Sc
+            <br>
+            <small>2015-2017</small>
+          </h3>
           My masters degree is in Software Engineering, a master aimed to investigate the process of creating software.
           The master covers topics such as Software Quality, Requirements Engineering, Project management etc.
           I am currently writing my master thesis investigating key performance indicators (KPI) in industrial use.
+        </li>
+        <li>
+          <h3>
+            Chalmers university of technology - B.Sc
+            <br>
+            <small>2012-2015</small>
+          </h3>
+          My bachelors degree was a major in Computer engineering and the education mixed both software and hardware.
+          The parts I found interesting was the software, as this was new to me.
+          I continued by selecting courses which were more software specific and gave me the ability to, after a masters degree, received the Swedish title of "Civil Ingenjör".
+        </li>
+        <li>
+          <h3>
+            Uddevalla gymnasieskola
+            <br>
+            <small>2009-2012</small>
+          </h3>
+          During my high school I studied technology with a specialization in IT.
+          I learned how routing protocol worked and the infrastructure of the internet.
+          I received two CCNA discovery certificates from Cisco Networking academy.
         </li>
       </ul>
     </div>
@@ -75,53 +87,79 @@
         <li>
           <h4>Lindholmen Science Park - PC/MAC/IT Support
             <br> <small>2013-2016</small></h4>
-          During my bachelor programe I worked as an support technican on the side.
-          I participated in fixing any computer related issues aswell as planning, expansion and consulting in purchaes made.
+          During my bachelor programme I worked as an support technician on the side.
+          I participated in fixing any computer related issues as well as planning, expansion and consulting in purchase made.
         </li>
         <li>
           <h4>Qalixa Solutions  - iOS developer/internship <br>
             <small>Summer 2014</small></h4>
           During the summer of 2014 I worked as an intern at Qalixa Solutions developing their iOS application.
-          I learned to work with a team and use common techiques such as git and scrum. I also learned Objective-C, the (then current) language for iOS.
+          I learned to work with a team and use common techniques such as git and scrum. I also learned Objective-C, the (then current) language for iOS.
         </li>
       </ul>
     </div>
     <div role="tabpanel" class="tab-pane" id="projects">
-      <h3>Here is a list of my Projects</h3>
+      <p>Here is a list of my Projects</p>
       <ul>
         <li>
-          <h4>Needy</h4>
-          Needy was the first real android project I build.
-          It was a part of a university course where we were suppose to build an andrioid application for truck drivers.
-          The functionality was very basic, it had a starting screen with four options, were a truck driver could select either: Food, Reststop, Gasstation or settings.
-          I was in charge of mining JSON data from different official and no-nofficial (reverse engineering websites) to get the information about near reststops and gasstations.
-          We also used the Google maps API to get near restaurants and to get directions to the nearest.
+          <h4>
+            <a href="https://github.com/marcusthorstrom/HemnetRaknaren">Hemnet räknaren</a>
+            <br>
+            <small>2017</small>
+          </h4>
+          This is a google chrome extension i created to be used with the Swedish housing site Hemnet.
+          This application calculated the actual monthly cost of a house or apartment depending on certain parameters (rent, mortgage etc.).
         </li>
         <li>
-          <h4>Pling</h4>
-          The pling project was another university project where a few classmates and I build a simple order system for a local bike delivery company.
-          The system included a website to create orders and an android application for the bikers to get directions and todays orders.
-          I was in charge of the backend, this was done without any external librarys, in PHP. I managed the website and database with another person in charge of the front-end look.
+          <h4>
+            <a href="https://github.com/marcusthorstrom/LightControl">Light Control</a>
+            <br>
+            <small>2017</small>
+          </h4>
+          This is my simple "home automation" system used for turning on and off the lights in my apartment. The system uses a 433MHz sender to power on and off different lights.
         </li>
         <li>
-          <h4>A tour wit Google glass</h4>
-          This was my bachelor thesis, me and my partner created a google glass application to guide weares around a office and present information by scanning QR codes generated from the web service we also created.
+          <h4>
+            Sigma programming Challenge
+            <br>
+            <small>2016</small>
+          </h4>
+          This was my first industrial project, co-created with the consulting firm Sigma. They needed a system to test the technical aspects of developers by asking technical questions and asking them to write code.
+          I proposed the alternative of having an online compiler to do small task and check questions. The application supported compilation of C, C#, Java, Python code through HTTP post requests and managed questions and results in a Mongo Database.
+          The backend was written in NodeJS and the frontend used AngularJS 1.6.
+        </li>
+        <li>
+          <h4>
+            A tour wit Google glass
+            <br>
+            <small>2015</small>
+          </h4>
+          This was my bachelor thesis, me and my partner created a google glass application to guide users around an office and present information by scanning QR codes generated from the web service we also created.
           The web service was written in .NET and it was my first (and only) experience with C#.
           The publication can be found <a href="http://studentarbeten.chalmers.se/publication/220110-en-rundtur-med-google-glass">here</a>.
         </li>
         <li>
-          <h4>Sigma programming Challenge</h4>
-          This was my first industrial project, co-created with the consultingfirm Sigma. They needed a system to test the technical aspects of developers by asking technical questions and asking them to write code.
-          I proposed the alternative of having an online compiler to do small task and check questions. The application supported compilation of C, C#, Java, Python code through HTPP post requests and managed questions and resutls in an Mongo Database.
-          The webserver was written in NodeJS.
+          <h4>
+            Pling
+            <br>
+            <small>2015</small>
+          </h4>
+          The pling project was another university project where a few classmates and I build a simple order system for a local bike delivery company.
+          The system included a website to create orders and an android application for the bikers to get directions and todays orders.
+          I was in charge of the backend, this was done without any external libraries, in PHP. I managed the website and database with another person in charge of the front-end look.
         </li>
+
         <li>
-          <h4>iOS projects</h4>
+          <h4>
+            iOS projects
+            <br>
+            <small>2014</small>
+          </h4>
           To extend my iOS knowledge and learn Swift, I created some very basic applications for iOS.
           <ul>
             <li>
               <h6><a href="https://github.com/marcusthorstrom/Velocity">Velocity</a></h6>
-              An application for measuring speed in diferent units (km/h, mph, knots, m/s).
+              An application for measuring speed in different units (km/h, mph, knots, m/s).
             </li>
             <li>
               <h6>BRFKalkylatorn</h6>
@@ -130,29 +168,32 @@
           </ul>
         </li>
         <li>
-          <h4><a href="https://github.com/marcusthorstrom/HemnetRaknaren">Hemnet räknaren</a></h4>
-          This is a google chrome extension i created to be used with the swedish housing site Hemnet.
-          This application calclulated the actual monthly cost of a house or apartment depending on certain parameters (rent, mortage etc.).
-        </li>
-        <li>
-          <h4><a href="https://github.com/marcusthorstrom/LightControl">Light Control</a></h4>
-          This is my simple "home automation" system used for turning on and off the lights in my apartment. The system uses a 433MHz sender to power on and off different ligths.
-
+          <h4>
+            Needy
+            <br>
+            <small>2014</small>
+          </h4>
+          Needy was the first real android project I build.
+          It was a part of a university course where we were suppose to build an android application for truck drivers.
+          The functionality was very basic, it had a starting screen with four options, were a truck driver could select either: Food, Reststop, Gasstation or settings.
+          I was in charge of mining JSON data from different official and non-official (reverse engineering websites) APIs to get the information about near rest-stops and gas stations.
+          We also used the Google maps API to get near restaurants and to get directions to the nearest.
         </li>
 
       </ul>
     </div>
     <div role="tabpanel" class="tab-pane" id="contact">
+      <h4>Contact:</h4>
       Email: marcus.thorstrom@gmail.com
       <br>
-      Phone: +46704910105
+      Phone: <a href="tel:+46704910105">+46704910105</a>
       <br>
       <br>
       Download my resumé:
       <br>
-      <a href="documents/CV_Eng.pdf">English</a>
+      <a href="/documents/CV_Eng.pdf">English</a>
       <br>
-      <a href="documents/CV_Sv.pdf">Swedish</a>
+      <a href="/documents/CV_Sv.pdf">Swedish</a>
 
     </div>
   </div>

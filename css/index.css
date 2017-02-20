@@ -71,7 +71,14 @@ body {
 
 @media screen and (max-width: 500px) {
   .nav>li>a {
-    padding: 5px 5px;
+    border-radius: 4px;
+  }
+  .nav>li {
+    float: none;
+  }
+  .nav-tabs {
+    margin: 5px 0 5px 0;
+    border-bottom: none;
   }
 
 }
