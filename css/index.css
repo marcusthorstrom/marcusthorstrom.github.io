@@ -25,6 +25,13 @@
 
 }
 
+.tab-content a {
+  text-decoration: underline;
+}
+.tab-pane a:hover {
+  color: #1179e0
+}
+
 .tab-pane a {
   color: #2c3e50
 }
